@@ -1,0 +1,35 @@
+{
+  "name": "rollup-plugin-userscript-boilerplate",
+  "version": "1.0.0",
+  "description": "A Rollup plugin that enables automatic generation of userscript boilerplate from JSON.",
+  "main": "dist/index.cjs.min.js",
+  "module": "dist/index.es.min.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "homepage": "https://github.com/GuangChen2333/rollup-plugin-userscript-boilerplate",
+  "bugs": {
+    "url": "https://github.com/GuangChen2333/rollup-plugin-userscript-boilerplate/issues"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "userscript"
+  ],
+  "author": "GuangChen2333 <guangchenworks@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^1.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.8.6",
+    "rollup": "^4.1.1",
+    "tslib": "^2.6.2"
+  }
+}
